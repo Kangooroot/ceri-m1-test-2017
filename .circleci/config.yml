@@ -43,10 +43,9 @@ jobs:
       # added for codecov
       - run: mvn cobertura:cobertura
       - after_success: bash <(curl -s https://codecov.io/bash)
-      
+
 workflows:
   version: 2
   build_and_test:
     jobs:
       - build
-      - test
