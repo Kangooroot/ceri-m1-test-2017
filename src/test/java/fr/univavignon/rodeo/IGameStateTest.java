@@ -4,15 +4,9 @@ import static org.junit.Assert.*;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-import java.util.ArrayList;
-
 import org.junit.Test;
 
-import fr.univavignon.rodeo.api.IAnimal;
-import fr.univavignon.rodeo.api.IEnvironmentProvider;
 import fr.univavignon.rodeo.api.IGameState;
-import fr.univavignon.rodeo.api.ISpecie;
-import fr.univavignon.rodeo.api.SpecieLevel;
 
 public class IGameStateTest {
 

@@ -6,7 +6,6 @@ import static org.mockito.Mockito.when;
 
 import org.junit.Test;
 
-import fr.univavignon.rodeo.api.IEnvironmentProvider;
 import fr.univavignon.rodeo.api.IGameState;
 import fr.univavignon.rodeo.api.IGameStateProvider;
 
